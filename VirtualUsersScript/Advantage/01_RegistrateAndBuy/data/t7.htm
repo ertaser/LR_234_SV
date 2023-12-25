@@ -1,0 +1,255 @@
+<scroll-to-top></scroll-to-top>
+<section>
+
+    <!--  five pictures  -->
+    <article id="our_products">
+
+        <search mobile-search></search>
+
+        <div class="container ">
+
+            <div class="rowSection">
+                <div id="speakersImg" aria-label="SpeakersCategory" ng-click="redirect('/category/' + categories[3].categoryName + '/' + categories[3].categoryId)"
+                     role="link" href="javascript:void(0)"
+                     class="SpeakersImg categoryCell"
+                     a-sec-back-img="{{categories[3].managedImageId}}" a-slow-page="{{ mainCtrl.config.slowPage }}" >
+                    <div class="shop_now_slider">
+                        <span id="speakersTxt" aria-label="SpeakersCategoryTxt" class="shop_now roboto-bold" role="link" href="javascript:void(0)">{{::categories[3].categoryName | uppercase}}</span>
+                        <label id="speakersLink" class="shop_nowSub roboto-regular" translate="Shop_Now"></label>
+                    </div>
+                </div>
+                <div id="tabletsImg" aria-label="TabletsCategory" ng-click="redirect('/category/' + categories[2].categoryName + '/' + categories[2].categoryId)"
+                     role="link" href="javascript:void(0)"
+                     a-sec-back-img="{{categories[2].managedImageId}}" class="categoryCell">
+                    <div class="shop_now_slider" aria-label="TabletsCategoryTxt">
+                        <span id="tabletsTxt" aria-label="TabletsCategoryTxt" class="shop_now roboto-bold" role="link" href="javascript:void(0)">{{::categories[2].categoryName | uppercase}}</span>
+                        <label id="tabletsLink" class="shop_nowSub roboto-regular" translate="Shop_Now"></label>
+                    </div>
+                </div>
+                <div class="emptyCell">
+                </div>
+            </div>
+
+
+            <div class="rowSection">
+                <div id="laptopsImg" aria-label="LaptopsCategory" ng-click="redirect('/category/' + categories[0].categoryName + '/' + categories[0].categoryId)" class="laptopImg categoryCell"
+                     role="link" href="javascript:void(0)"
+                     a-sec-back-img="{{categories[0].managedImageId}}">
+                    <div class="shop_now_slider">
+                        <span id="laptopsTxt" aria-label="LaptopsCategoryTxt" class="shop_now roboto-bold" role="link" href="javascript:void(0)">{{::categories[0].categoryName | uppercase}}</span>
+                        <label id="laptopsLink" class="shop_nowSub roboto-regular" translate="Shop_Now"></label>
+                    </div>
+                </div>
+                <div id="miceImg" aria-label="MiceCategory" ng-click="redirect('/category/' + categories[4].categoryName + '/' + categories[4].categoryId)" class="miceImg categoryCell"
+                     role="link" href="javascript:void(0)"
+                     a-sec-back-img="{{categories[4].managedImageId}}">
+                    <div class="shop_now_slider">
+                        <span id="miceTxt" aria-label="MiceCategoryTxt" class="shop_now roboto-bold" role="link" href="javascript:void(0)">{{::categories[4].categoryName | uppercase}}</span>
+                        <label id="miceLink" class="shop_nowSub roboto-regular" translate="Shop_Now"></label>
+                    </div>
+                </div>
+                <div id="headphonesImg" aria-label="HeadphonesCategory" ng-click="redirect('/category/' + categories[1].categoryName + '/' + categories[1].categoryId)" class="twoRows categoryCell"
+                     role="link" href="javascript:void(0)"
+                     a-sec-back-img="{{categories[1].managedImageId}}">
+                    <div class="shop_now_slider">
+                        <span id="headphonesTxt" aria-label="HeadphonesCategoryTxt" class="shop_now roboto-bold" role="link" href="javascript:void(0)">{{::categories[1].categoryName | uppercase}}</span>
+                        <label id="headphonesLink" class="shop_nowSub roboto-regular" translate="Shop_Now"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- end five pictures -->
+
+
+    <!-- SPACIAL OFFER -->
+    <article id="special_offer_items">
+        <h3 class="roboto-regular center" translate="SPACIAL_OFFER"></h3>
+        <div>
+            <div id="img-special-offer">
+                <figure>
+                    <img src="css/images/Special-offer.jpg" alt="Special-offer">
+                </figure>
+            </div>
+            <div id="div-special-offer">
+                <div>
+                    <span class="roboto-light"> {{specialOffer[0].promotionHeader}} </span>
+
+                    <h1 class="roboto-thin"> {{specialOffer[0].product.productName}} </h1>
+
+                    <p> {{specialOffer[0].promotionSubHeader}} </p>
+                    <a href="#/product/{{specialOffer[0].product.id}}">
+                        <button id="see_offer_btn" translate="SEE_OFFER" role="button"></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- end SPACIAL OFFER -->
+
+
+    <!-- check directive -->
+
+
+    <!-- slider -->
+    <article id="slider_explore_now">
+        <div class="slider">
+            <div class="slider-length transition">
+                <div ng-repeat="img in images" class="imgSection">
+                    <div class="imgContainer">
+                        <img data-ng-src="../../css/images/{{img.imageName}}"
+                             ng-click="redirect('/category/' + categories[img.categoryId].categoryId)"/>
+                    </div>
+                    <div class="container">
+                        <h2 ng-bind-html='img.message | trustHtml' class="roboto-light"></h2>
+                        <button name="explore_now_btn" ng-click="redirect('/category/' + categories[img.categoryId].categoryName + '/' + categories[img.categoryId].categoryId)"
+                                translate="EXPLORE_NOW" role="button"></button>
+                    </div>
+                </div>
+                <div class="imgSection">
+                    <div class="imgContainer">
+                        <img data-ng-src="../../css/images/{{images[0].imageName}}"
+                             ng-click="redirect('/category/' + categories[img.categoryId].categoryName + '/' + categories[0].categoryId)"/>
+                    </div>
+                    <div class="container">
+                        <h2 class="roboto-light">{{images[0].message}}</h2>
+                        <button name="explore_now_btn" ng-click="redirect('/category/' + categories[img.categoryId].categoryName + '/' + categories[0].categoryId)"
+                                class="white" translate="EXPLORE_NOW" role="button"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-steps">
+                <span href="javascript:void(0)" role="link"
+                        ng-repeat="img in images" ng-class="{selected : ({{img.imageId === 0}})}"></span>
+            </div>
+        </div>
+    </article>
+    <!-- end slider -->
+
+
+    <!-- POPULAR ITEMS
+    <popular-items-drtv popular-products="popularProducts"></popular-items-drtv>
+    -->
+
+    <article id="popular_items">
+        <h3 class="roboto-regular center" translate="POPULAR_ITEMS"></h3>
+
+        <div class="grid-table center">
+            <div name="popular_item_{{product.id}}" ng-repeat="product in popularProducts" ng-if="popularProducts.length > 0">
+                <figure>
+                    <img name="popular_item_{{product.id}}_img" data-ng-src="{{product.imageUrl}}" alt="Special-offer"
+                        href="javascript:void(0)" role="link">
+                </figure>
+                <p name="popular_item_{{product.id}}_name" class="center productName roboto-medium">{{product.productName | uppercase}}</p>
+                <a href="#/product/{{product.id}}" role="link">
+                    <label id="details_{{product.id}}" class="shop_nowSub viewDetail" translate="View_details"></label>
+                </a>
+            </div>
+        </div>
+    </article>
+    <!-- end POPULAR ITEMS -->
+
+
+    <article id="contact_us">
+
+        <div data-ng-hide="supportSuccess">
+
+            <div id="supportCover">
+
+                <div>
+
+                    <div name="chat_with_us" class="chat" data-ng-click="openChat()">
+
+                        <div>
+                            <img id="chatLogo" src="../../css/images/chat_logo.png" alt="chat logo" />
+                            <label class="roboto-bold" translate="CHAT_WITH_US"></label>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div>
+
+                    <h1 class="roboto-bold contact_us" translate="CONTACT_US"></h1>
+
+                    <sec-form>
+
+                        <div class="splitter">
+                            <div class="inputMargin">
+                                <sec-view a-hint="Category"
+                                          a-hint-description="ContactUs"
+                                          a-type="select"
+                                          a-show="categoryName"
+                                          sec-select-options="categories"
+                                          sec-model="categories.category"
+                                          sec-select-change="categoryChange(value)">
+                                </sec-view>
+                                <sec-view a-hint="Product"
+                                          a-hint-description="ContactUs"
+                                          a-type="select"
+                                          a-show="productName"
+                                          sec-model="supportModel.product"
+                                          sec-select-options="products"
+                                          sec-select-change="productChange(value)">
+                                </sec-view>
+                                <sec-view a-hint="{{'Email' | translate}}"
+                                          a-hint-description="ContactUs"
+                                          sec-model="supportModel.email"
+                                          sec-require="mainCtrl.getRequire('Email')">
+                                </sec-view>
+                            </div>
+                        </div>
+                        <div class="splitter" >
+                            <div class="smollPadding  margin-right">
+                                <label class="Subject"><span class="star">*</span> {{'Subject' | translate }}</label>
+
+                                <sec-view class="textarea"
+                                          a-hint="subjectTextarea"
+                                          a-hint-description="ContactUs"
+                                          a-type="textarea"
+                                          a-star="false"
+                                          sec-model="supportModel.subject"
+                                          sec-require="mainCtrl.getRequire('Email')">
+                                </sec-view>
+
+                                <sec-sender a-value="{{'SEND' | translate}}" sec-send="sendSupportEmail()"></sec-sender>
+
+                            </div>
+                        </div>
+
+                        <label class="{{registerAnswer.class}} invalid center"> {{registerAnswer.message}} </label>
+
+                    </sec-form>
+                </div>
+            </div>
+        </div>
+
+        <div id="registerSuccessCover" data-ng-show="supportSuccess">
+            <div class="center">
+                <p class="roboto-regular successMessage">{{ registerAnswer.message }}</p>
+                <br/>
+                <a class="a-button" href="#/" ng-click="continueShopping()" > {{ 'CONTINUE_SHOPPING' | translate}} </a>
+            </div>
+        </div>
+    </article>
+    <div data-ng-if="mainCtrl.config.slowPage">
+
+        <script href="" type="text/javascript"></script>
+        <script href="" type="text/javascript"></script>
+        <script href="" type="text/javascript"></script>
+
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+
+    </div>
+
+</section>
+
+
+
+<social-media-drtv></social-media-drtv>

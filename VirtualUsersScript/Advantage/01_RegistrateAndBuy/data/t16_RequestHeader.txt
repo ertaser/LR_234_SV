@@ -1,0 +1,10 @@
+GET /app/order/views/user-not-login-page.html HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
+Accept: text/html
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%7B%22productId%22%3A8%2C%22imageUrl%22%3A%221800%22%2C%22productName%22%3A%22HP%20ZBook%2017%20G2%20Mobile%20Workstation%22%2C%22color%22%3A%7B%22code%22%3A%22414141%22%2C%22name%22%3A%22BLACK%22%2C%22inStock%22%3A10%2C%22%24%24hashKey%22%3A%22object%3A385%22%7D%2C%22quantity%22%3A1%2C%22price%22%3A1799%2C%22hasWarranty%22%3Afalse%7D%5D%7D
+

@@ -1,0 +1,15 @@
+[t15]
+FileName1=t15.htm
+URL1=http://localhost:8080/app/views/shoppingCart.html
+Total=3
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t15_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_15.xml
+FileName2=t15_Master_credit.png
+URL2=http://localhost:8080/css/images/Master_credit.png
+FileName3=t15_SafePay.png
+URL3=http://localhost:8080/css/images/SafePay.png
+[ProtocolInfo]
+ProtocolId=QTWeb

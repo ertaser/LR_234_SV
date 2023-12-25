@@ -1,0 +1,11 @@
+[t25]
+FileName1=t25.json
+URL1=http://localhost:8080/order/api/v1/carts/283991119
+Total=1
+RequestHeaderFile=t25_RequestHeader.txt
+RequestBodyFile=t25_RequestBody.txt
+ResponseHeaderFile=t25_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_25.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2023/12/24 10:21:09
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2023/12/24 10:24:12
+StartRecordingIsDst_2=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
+[Security]
+UsingPersistForAuthentication=1
+UserName_2_1=Filoria
+Password_2_1=Filo!@#123
+Realm_2_1=localhost:8080
+EventId_2_1=1964

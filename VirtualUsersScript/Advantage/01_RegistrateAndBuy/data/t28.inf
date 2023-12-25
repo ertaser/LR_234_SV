@@ -1,0 +1,15 @@
+[t28]
+FileName1=t28.htm
+URL1=http://localhost:8080/app/order/views/orderPayment-page.html
+Total=3
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t28_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_28.xml
+FileName2=t28_User.jpg
+URL2=http://localhost:8080/css/images/User.jpg
+FileName3=t28_Shipex.png
+URL3=http://localhost:8080/css/images/Shipex.png
+[ProtocolInfo]
+ProtocolId=QTWeb

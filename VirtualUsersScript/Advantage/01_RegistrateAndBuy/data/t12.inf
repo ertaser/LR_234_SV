@@ -1,0 +1,11 @@
+[t12]
+FileName1=t12_products.json
+URL1=http://localhost:8080/catalog/api/v1/categories/1/products
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_12.xml
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t12_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

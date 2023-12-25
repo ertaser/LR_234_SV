@@ -1,0 +1,4 @@
+"{\"seaddress\":{\"addressLine1\":\"Kosovo\",\"addressLine2\":\"\",\"city\":\"Kosovo\",\"countr"
+"y\":\"us\",\"postalCode\":\"Serbia\",\"state\":\"Serbia\"},\"secustomerName\":\"Filo Filo\",\""
+"secustomerPhone\":52365623,\"senumberOfProducts\":0,\"setransactionType\":\"SHIPPING_COST\",\""
+"sessionId\":\"63BC4EF575D92BF777D16D734025B723\"}"

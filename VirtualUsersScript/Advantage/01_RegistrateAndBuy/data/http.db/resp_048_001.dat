@@ -1,0 +1,119 @@
+
+<section>
+    <article class="sp">
+
+        <nav class="pages fixedImportant " style="top:65px">
+            <a translate="HOME" href="#/"></a>
+            <a class="select "> {{ 'SHOPPING_CART' | translate }}</a>
+        </nav>
+
+        <h3 class="roboto-regular center sticky fixedImportant">
+            {{'SHOPPING_CART' | translate}} <span ng-show="cart.productsInCart.length > 0">({{ cart | productsCartCount }})</span>
+        </h3>
+
+        <div id="shoppingCart">
+            <table class="fixedTableEdgeCompatibility" ng-show="cart.productsInCart.length > 0">
+                <thead>
+                <tr>
+                    <th class="imgHeader">
+                    </th>
+                    <th>
+                        <label class="roboto-light" translate="PRODUCT_NAME"></label>
+                    </th>
+                    <th class="smollCell" data-ng-show="enableWarranty">
+                        <label class="roboto-light" translate="WARRANTY"></label>
+                    </th>
+                    <th class="smollCell">
+                        <label class="roboto-light" translate="COLOR"></label>
+                    </th>
+                    <th class="smollCell quantity">
+                        <label class="roboto-light" translate="QUANTITY"></label>
+                    </th>
+                    <th class="smollCell">
+                        <label class="roboto-light" translate="PRICE"></label>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="product in cart.productsInCart track by $index">
+                    <td>
+                        <img class="imageUrl" ng-src="/catalog/fetchImage?image_id={{product.imageUrl}}"
+                             alt="imgProduct"/>
+                    </td>
+                    <td>
+                        <label class="roboto-regular productName">{{product.productName | uppercase}}</label>
+                    </td>
+                    <td class="smollCell quantityMobile" data-ng-show="enableWarranty">
+                        <label class="roboto-light mobileViewer" translate="WARRANTY"></label>
+                        <input style="z-index: 999;position: static;" name="purchase_warranty"  disabled ng-checked="product.hasWarranty" type="checkbox">
+
+                    </td>
+                    <td class="smollCell">
+                        <label class="roboto-light mobileViewer">
+                            {{'COLOR' | translate}}:
+                        </label>
+                        <span title="{{ product.color.name }}" ng-style="product.color.code != 'FFFFFF' ? {'backgroundColor': '#' + product.color.code, 'border': 'none 0px white'} : { 'backgroundColor': '#' + product.color.code }"
+                              class="productColor"></span>
+                    </td>
+                    <td class="smollCell quantityMobile">
+                        <label class="roboto-light mobileViewer" translate="QUANTITY"></label>
+                        <label>{{product.quantity}}</label>
+                    </td>
+                    <td class="smollCell">
+                        <label class="roboto-light mobileViewer">
+                            {{'PRICE' | translate}}:
+                        </label>
+                        <p class="price roboto-regular">
+                            {{ (product.price * product.quantity) | currency:'$' }}
+                        </p>
+                        <span class="actions">
+                            <a class="edit"
+                               href="#/product/{{product.productId}}?color={{product.color.code}}&quantity={{product.quantity}}&pageState=edit&warranty={{product.warrantyProperties}}"
+                               translate="EDIT"></a>
+                            <a class="separator">|</a>
+                            <a class="remove red" data-ng-click="removeProduct($index)" translate="REMOVE"></a>
+                        </span>
+                    </td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="3" class="icons">
+                        <label>{{'PAYMENT_OPTIONS' | translate}}: </label>
+                        <ul>
+                            <li>
+                                <img src="../../css/images/Master_credit.png">
+                            </li>
+                            <li style="width: 80px">
+                                <img src="../../css/images/SafePay.png">
+                            </li>
+                        </ul>
+                    </td>
+                    <td colspan="{{enableWarranty ? 3 : 2}}">
+                        <span class="roboto-light">{{'TOTAL' + ': ' | translate}}</span>
+                        <span class="roboto-medium">{{cart | productsCartSum:shippingCost | currency:'$'}}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="{{enableWarranty ? 6 : 5}}">
+                        <button role="button" class="roboto-medium tami uft-class" data-ng-click="checkout()">{{'CHECK_OUT' | translate}} ({{ cart | productsCartSum:shippingCost | currency:'$' }})</button>
+                    </td>
+                </tr>
+                </tfoot>
+            </table>
+            <div ng-hide="cart.productsInCart.length > 0" class="bigEmptyCart center">
+                <label class="roboto-bold" translate="Your_shopping_cart_is_empty"> </label>
+                <a href="#/" role="link" class="a-button" translate="CONTINUE_SHOPPING"></a>
+            </div>
+        </div>
+
+        <div id="mobileShoppingCart">
+            <tool-tip-cart id="toolTipCart" style="display: block !important;"></tool-tip-cart>
+        </div>
+
+    </article>
+</section>
+
+<social-media-drtv></social-media-drtv>
+
+

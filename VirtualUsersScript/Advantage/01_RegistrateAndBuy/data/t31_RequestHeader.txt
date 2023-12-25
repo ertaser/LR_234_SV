@@ -1,0 +1,14 @@
+POST /order/api/v1/orders/users/283991119 HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+content-type: application/json
+Authorization: Basic Rmlsb3JpYTpGaWxvIUAjMTIz
+Content-Length: 1001
+Origin: http://localhost:8080
+Connection: keep-alive
+Referer: http://localhost:8080/
+Cookie: JSESSIONID=DDAF6B65CAE7560529E41F7003AEED44
+

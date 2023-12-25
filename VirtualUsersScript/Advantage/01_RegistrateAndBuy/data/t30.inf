@@ -1,0 +1,11 @@
+[t30]
+FileName1=t30.xml
+URL1=http://localhost:8080//accountservice/ws/AddSafePayMethodRequest
+Total=1
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=t30_RequestBody.txt
+ResponseHeaderFile=t30_ResponseHeader.txt
+ContentType=text/xml
+SnapshotXmlFile=snapshot_30.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
