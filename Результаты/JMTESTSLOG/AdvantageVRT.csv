@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,SampleCount,ErrorCount,IdleTime
+1703769305355,7,GET 180 /app/views/home-page.html,200,,DebugTestViewer 1-1,text,true,,12730,385,1,1,http://localhost:8080/app/views/home-page.html,7,1,0,0
+1703769305370,4,GET 183 /app/user/views/register-page.html,200,,DebugTestViewer 1-1,text,true,,10016,394,1,1,http://localhost:8080/app/user/views/register-page.html,4,1,0,0
+1703769305376,343,POST 184 //accountservice/ws/GetCountriesRequest,200,,DebugTestViewer 1-1,text,true,,35503,901,1,1,http://localhost:8080//accountservice/ws/GetCountriesRequest,342,1,0,0
+1703769305726,119,POST189 //accountservice/ws/AccountCreateRequest,200,,DebugTestViewer 1-1,text,true,,1034,1322,1,1,http://localhost:8080//accountservice/ws/AccountCreateRequest,119,1,0,0
+1703769305846,312,POST 190 //accountservice/ws/AccountLoginRequest,200,,DebugTestViewer 1-1,text,true,,1406,1000,1,1,http://localhost:8080//accountservice/ws/AccountLoginRequest,312,1,0,0
+1703769306159,324,POST 192 //accountservice/ws/AccountLogoutRequest,200,,DebugTestViewer 1-1,text,true,,1021,990,1,1,http://localhost:8080//accountservice/ws/AccountLogoutRequest,324,1,0,0
+1703769305355,1109,TC 189 //accountservice/ws/AccountCreateRequest,200,"Number of samples in transaction : 6, number of failing samples : 0",DebugTestViewer 1-1,,true,,61710,4992,1,1,null,1108,1,0,20
+1703769306485,0,Debug Sampler,200,OK,DebugTestViewer 1-1,text,true,,426,0,1,1,null,0,1,0,0

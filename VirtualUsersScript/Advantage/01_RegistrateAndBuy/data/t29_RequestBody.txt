@@ -1,6 +1,0 @@
-"<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.o"
-"rg/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http:/"
-"/www.w3.org/2001/XMLSchema\"><soap:Body><AddSafePayMethodRequest xmlns=\"com.advantage.online."
-"store.accountservice\"><safePayUsername>Filorian</safePayUsername><accountId>283991119</accoun"
-"tId><safePayPassword>Filo!@#123</safePayPassword><base64Token>Basic Rmlsb3JpYTpGaWxvIUAjMTIz</"
-"base64Token></AddSafePayMethodRequest></soap:Body></soap:Envelope>"

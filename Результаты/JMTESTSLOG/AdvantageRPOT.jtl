@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="7" it="0" lt="7" ct="2" ts="1703769305355" s="true" lb="GET 180 /app/views/home-page.html" rc="200" rm="" tn="DebugTestViewer 1-1" dt="text" de="" by="12730" sby="385" sc="1" ec="0" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Accept-Ranges: bytes
+ETag: W/&quot;12463-1640156092000&quot;
+Last-Modified: Wed, 22 Dec 2021 06:54:52 GMT
+Cache-Control: max-age=0
+Expires: Thu, 28 Dec 2023 13:15:05 GMT
+Content-Type: text/html
+Content-Length: 12463
+Date: Thu, 28 Dec 2023 13:15:05 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: text/html
+Content-Length: 0
+Content-Type: text/plain; charset=ISO-8859-1
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;scroll-to-top&gt;&lt;/scroll-to-top&gt;
+&lt;section&gt;
+
+    &lt;!--  five pictures  --&gt;
+    &lt;article id=&quot;our_products&quot;&gt;
+
+        &lt;search mobile-search&gt;&lt;/search&gt;
+
+        &lt;div class=&quot;container &quot;&gt;
+
+            &lt;div class=&quot;rowSection&quot;&gt;
+                &lt;div id=&quot;speakersImg&quot; aria-label=&quot;SpeakersCategory&quot; ng-click=&quot;redirect(&apos;/category/&apos; + categories[3].categoryName + &apos;/&apos; + categories[3].categoryId)&quot;
+                     role=&quot;link&quot; href=&quot;javascript:void(0)&quot;
+                     class=&quot;SpeakersImg categoryCell&quot;
+                     a-sec-back-img=&quot;{{categories[3].managedImageId}}&quot; a-slow-page=&quot;{{ mainCtrl.config.slowPage }}&quot; &gt;
+                    &lt;div class=&quot;shop_now_slider&quot;&gt;
+                        &lt;span id=&quot;speakersTxt&quot; aria-label=&quot;SpeakersCategoryTxt&quot; class=&quot;shop_now roboto-bold&quot; role=&quot;link&quot; href=&quot;javascript:void(0)&quot;&gt;{{::categories[3].categoryName | uppercase}}&lt;/span&gt;
+                        &lt;label id=&quot;speakersLink&quot; class=&quot;shop_nowSub roboto-regular&quot; translate=&quot;Shop_Now&quot;&gt;&lt;/label&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div id=&quot;tabletsImg&quot; aria-label=&quot;TabletsCategory&quot; ng-click=&quot;redirect(&apos;/category/&apos; + categories[2].categoryName + &apos;/&apos; + categories[2].categoryId)&quot;
+                     role=&quot;link&quot; href=&quot;javascript:void(0)&quot;
+                     a-sec-back-img=&quot;{{categories[2].managedImageId}}&quot; class=&quot;categoryCell&quot;&gt;
+                    &lt;div class=&quot;shop_now_slider&quot; aria-label=&quot;TabletsCategoryTxt&quot;&gt;
+                        &lt;span id=&quot;tabletsTxt&quot; aria-label=&quot;TabletsCategoryTxt&quot; class=&quot;shop_now roboto-bold&quot; role=&quot;link&quot; href=&quot;javascript:void(0)&quot;&gt;{{::categories[2].categoryName | uppercase}}&lt;/span&gt;
+                        &lt;label id=&quot;tabletsLink&quot; class=&quot;shop_nowSub roboto-regular&quot; translate=&quot;Shop_Now&quot;&gt;&lt;/label&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;emptyCell&quot;&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+
+            &lt;div class=&quot;rowSection&quot;&gt;
+                &lt;div id=&quot;laptopsImg&quot; aria-label=&quot;LaptopsCategory&quot; ng-click=&quot;redirect(&apos;/category/&apos; + categories[0].categoryName + &apos;/&apos; + categories[0].categoryId)&quot; class=&quot;laptopImg categoryCell&quot;
+                     role=&quot;link&quot; href=&quot;javascript:void(0)&quot;
+                     a-sec-back-img=&quot;{{categories[0].managedImageId}}&quot;&gt;
+                    &lt;div class=&quot;shop_now_slider&quot;&gt;
+                        &lt;span id=&quot;laptopsTxt&quot; aria-label=&quot;LaptopsCategoryTxt&quot; class=&quot;shop_now roboto-bold&quot; role=&quot;link&quot; href=&quot;javascript:void(0)&quot;&gt;{{::categories[0].categoryName | uppercase}}&lt;/span&gt;
+                        &lt;label id=&quot;laptopsLink&quot; class=&quot;shop_nowSub roboto-regular&quot; translate=&quot;Shop_Now&quot;&gt;&lt;/label&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div id=&quot;miceImg&quot; aria-label=&quot;MiceCategory&quot; ng-click=&quot;redirect(&apos;/category/&apos; + categories[4].categoryName + &apos;/&apos; + categories[4].categoryId)&quot; class=&quot;miceImg categoryCell&quot;
+                     role=&quot;link&quot; href=&quot;javascript:void(0)&quot;
+                     a-sec-back-img=&quot;{{categories[4].managedImageId}}&quot;&gt;
+                    &lt;div class=&quot;shop_now_slider&quot;&gt;
+                        &lt;span id=&quot;miceTxt&quot; aria-label=&quot;MiceCategoryTxt&quot; class=&quot;shop_now roboto-bold&quot; role=&quot;link&quot; href=&quot;javascript:void(0)&quot;&gt;{{::categories[4].categoryName | uppercase}}&lt;/span&gt;
+                        &lt;label id=&quot;miceLink&quot; class=&quot;shop_nowSub roboto-regular&quot; translate=&quot;Shop_Now&quot;&gt;&lt;/label&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div id=&quot;headphonesImg&quot; aria-label=&quot;HeadphonesCategory&quot; ng-click=&quot;redirect(&apos;/category/&apos; + categories[1].categoryName + &apos;/&apos; + categories[1].categoryId)&quot; class=&quot;twoRows categoryCell&quot;
+                     role=&quot;link&quot; href=&quot;javascript:void(0)&quot;
+                     a-sec-back-img=&quot;{{categories[1].managedImageId}}&quot;&gt;
+                    &lt;div class=&quot;shop_now_slider&quot;&gt;
+                        &lt;span id=&quot;headphonesTxt&quot; aria-label=&quot;HeadphonesCategoryTxt&quot; class=&quot;shop_now roboto-bold&quot; role=&quot;link&quot; href=&quot;javascript:void(0)&quot;&gt;{{::categories[1].categoryName | uppercase}}&lt;/span&gt;
+                        &lt;label id=&quot;headphonesLink&quot; class=&quot;shop_nowSub roboto-regular&quot; translate=&quot;Shop_Now&quot;&gt;&lt;/label&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/article&gt;
+    &lt;!-- end five pictures --&gt;
+
+
+    &lt;!-- SPACIAL OFFER --&gt;
+    &lt;article id=&quot;special_offer_items&quot;&gt;
+        &lt;h3 class=&quot;roboto-regular center&quot; translate=&quot;SPACIAL_OFFER&quot;&gt;&lt;/h3&gt;
+        &lt;div&gt;
+            &lt;div id=&quot;img-special-offer&quot;&gt;
+                &lt;figure&gt;
+                    &lt;img src=&quot;css/images/Special-offer.jpg&quot; alt=&quot;Special-offer&quot;&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;
+            &lt;div id=&quot;div-special-offer&quot;&gt;
+                &lt;div&gt;
+                    &lt;span class=&quot;roboto-light&quot;&gt; {{specialOffer[0].promotionHeader}} &lt;/span&gt;
+
+                    &lt;h1 class=&quot;roboto-thin&quot;&gt; {{specialOffer[0].product.productName}} &lt;/h1&gt;
+
+                    &lt;p&gt; {{specialOffer[0].promotionSubHeader}} &lt;/p&gt;
+                    &lt;a href=&quot;#/product/{{specialOffer[0].product.id}}&quot;&gt;
+                        &lt;button id=&quot;see_offer_btn&quot; translate=&quot;SEE_OFFER&quot; role=&quot;button&quot;&gt;&lt;/button&gt;
+                    &lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/article&gt;
+    &lt;!-- end SPACIAL OFFER --&gt;
+
+
+    &lt;!-- check directive --&gt;
+
+
+    &lt;!-- slider --&gt;
+    &lt;article id=&quot;slider_explore_now&quot;&gt;
+        &lt;div class=&quot;slider&quot;&gt;
+            &lt;div class=&quot;slider-length transition&quot;&gt;
+                &lt;div ng-repeat=&quot;img in images&quot; class=&quot;imgSection&quot;&gt;
+                    &lt;div class=&quot;imgContainer&quot;&gt;
+                        &lt;img data-ng-src=&quot;../../css/images/{{img.imageName}}&quot;
+                             ng-click=&quot;redirect(&apos;/category/&apos; + categories[img.categoryId].categoryId)&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;container&quot;&gt;
+                        &lt;h2 ng-bind-html=&apos;img.message | trustHtml&apos; class=&quot;roboto-light&quot;&gt;&lt;/h2&gt;
+                        &lt;button name=&quot;explore_now_btn&quot; ng-click=&quot;redirect(&apos;/category/&apos; + categories[img.categoryId].categoryName + &apos;/&apos; + categories[img.categoryId].categoryId)&quot;
+                                translate=&quot;EXPLORE_NOW&quot; role=&quot;button&quot;&gt;&lt;/button&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;imgSection&quot;&gt;
+                    &lt;div class=&quot;imgContainer&quot;&gt;
+                        &lt;img data-ng-src=&quot;../../css/images/{{images[0].imageName}}&quot;
+                             ng-click=&quot;redirect(&apos;/category/&apos; + categories[img.categoryId].categoryName + &apos;/&apos; + categories[0].categoryId)&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;container&quot;&gt;
+                        &lt;h2 class=&quot;roboto-light&quot;&gt;{{images[0].message}}&lt;/h2&gt;
+                        &lt;button name=&quot;explore_now_btn&quot; ng-click=&quot;redirect(&apos;/category/&apos; + categories[img.categoryId].categoryName + &apos;/&apos; + categories[0].categoryId)&quot;
+                                class=&quot;white&quot; translate=&quot;EXPLORE_NOW&quot; role=&quot;button&quot;&gt;&lt;/button&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;slider-steps&quot;&gt;
+                &lt;span href=&quot;javascript:void(0)&quot; role=&quot;link&quot;
+                        ng-repeat=&quot;img in images&quot; ng-class=&quot;{selected : ({{img.imageId === 0}})}&quot;&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/article&gt;
+    &lt;!-- end slider --&gt;
+
+
+    &lt;!-- POPULAR ITEMS
+    &lt;popular-items-drtv popular-products=&quot;popularProducts&quot;&gt;&lt;/popular-items-drtv&gt;
+    --&gt;
+
+    &lt;article id=&quot;popular_items&quot;&gt;
+        &lt;h3 class=&quot;roboto-regular center&quot; translate=&quot;POPULAR_ITEMS&quot;&gt;&lt;/h3&gt;
+
+        &lt;div class=&quot;grid-table center&quot;&gt;
+            &lt;div name=&quot;popular_item_{{product.id}}&quot; ng-repeat=&quot;product in popularProducts&quot; ng-if=&quot;popularProducts.length &gt; 0&quot;&gt;
+                &lt;figure&gt;
+                    &lt;img name=&quot;popular_item_{{product.id}}_img&quot; data-ng-src=&quot;{{product.imageUrl}}&quot; alt=&quot;Special-offer&quot;
+                        href=&quot;javascript:void(0)&quot; role=&quot;link&quot;&gt;
+                &lt;/figure&gt;
+                &lt;p name=&quot;popular_item_{{product.id}}_name&quot; class=&quot;center productName roboto-medium&quot;&gt;{{product.productName | uppercase}}&lt;/p&gt;
+                &lt;a href=&quot;#/product/{{product.id}}&quot; role=&quot;link&quot;&gt;
+                    &lt;label id=&quot;details_{{product.id}}&quot; class=&quot;shop_nowSub viewDetail&quot; translate=&quot;View_details&quot;&gt;&lt;/label&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/article&gt;
+    &lt;!-- end POPULAR ITEMS --&gt;
+
+
+    &lt;article id=&quot;contact_us&quot;&gt;
+
+        &lt;div data-ng-hide=&quot;supportSuccess&quot;&gt;
+
+            &lt;div id=&quot;supportCover&quot;&gt;
+
+                &lt;div&gt;
+
+                    &lt;div name=&quot;chat_with_us&quot; class=&quot;chat&quot; data-ng-click=&quot;openChat()&quot;&gt;
+
+                        &lt;div&gt;
+                            &lt;img id=&quot;chatLogo&quot; src=&quot;../../css/images/chat_logo.png&quot; alt=&quot;chat logo&quot; /&gt;
+                            &lt;label class=&quot;roboto-bold&quot; translate=&quot;CHAT_WITH_US&quot;&gt;&lt;/label&gt;
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+                &lt;/div&gt;
+                &lt;div&gt;
+
+                    &lt;h1 class=&quot;roboto-bold contact_us&quot; translate=&quot;CONTACT_US&quot;&gt;&lt;/h1&gt;
+
+                    &lt;sec-form&gt;
+
+                        &lt;div class=&quot;splitter&quot;&gt;
+                            &lt;div class=&quot;inputMargin&quot;&gt;
+                                &lt;sec-view a-hint=&quot;Category&quot;
+                                          a-hint-description=&quot;ContactUs&quot;
+                                          a-type=&quot;select&quot;
+                                          a-show=&quot;categoryName&quot;
+                                          sec-select-options=&quot;categories&quot;
+                                          sec-model=&quot;categories.category&quot;
+                                          sec-select-change=&quot;categoryChange(value)&quot;&gt;
+                                &lt;/sec-view&gt;
+                                &lt;sec-view a-hint=&quot;Product&quot;
+                                          a-hint-description=&quot;ContactUs&quot;
+                                          a-type=&quot;select&quot;
+                                          a-show=&quot;productName&quot;
+                                          sec-model=&quot;supportModel.product&quot;
+                                          sec-select-options=&quot;products&quot;
+                                          sec-select-change=&quot;productChange(value)&quot;&gt;
+                                &lt;/sec-view&gt;
+                                &lt;sec-view a-hint=&quot;{{&apos;Email&apos; | translate}}&quot;
+                                          a-hint-description=&quot;ContactUs&quot;
+                                          sec-model=&quot;supportModel.email&quot;
+                                          sec-require=&quot;mainCtrl.getRequire(&apos;Email&apos;)&quot;&gt;
+                                &lt;/sec-view&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;splitter&quot; &gt;
+                            &lt;div class=&quot;smollPadding  margin-right&quot;&gt;
+                                &lt;label class=&quot;Subject&quot;&gt;&lt;span class=&quot;star&quot;&gt;*&lt;/span&gt; {{&apos;Subject&apos; | translate }}&lt;/label&gt;
+
+                                &lt;sec-view class=&quot;textarea&quot;
+                                          a-hint=&quot;subjectTextarea&quot;
+                                          a-hint-description=&quot;ContactUs&quot;
+                                          a-type=&quot;textarea&quot;
+                                          a-star=&quot;false&quot;
+                                          sec-model=&quot;supportModel.subject&quot;
+                                          sec-require=&quot;mainCtrl.getRequire(&apos;Email&apos;)&quot;&gt;
+                                &lt;/sec-view&gt;
+
+                                &lt;sec-sender a-value=&quot;{{&apos;SEND&apos; | translate}}&quot; sec-send=&quot;sendSupportEmail()&quot;&gt;&lt;/sec-sender&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+
+                        &lt;label class=&quot;{{registerAnswer.class}} invalid center&quot;&gt; {{registerAnswer.message}} &lt;/label&gt;
+
+                    &lt;/sec-form&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div id=&quot;registerSuccessCover&quot; data-ng-show=&quot;supportSuccess&quot;&gt;
+            &lt;div class=&quot;center&quot;&gt;
+                &lt;p class=&quot;roboto-regular successMessage&quot;&gt;{{ registerAnswer.message }}&lt;/p&gt;
+                &lt;br/&gt;
+                &lt;a class=&quot;a-button&quot; href=&quot;#/&quot; ng-click=&quot;continueShopping()&quot; &gt; {{ &apos;CONTINUE_SHOPPING&apos; | translate}} &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/article&gt;
+    &lt;div data-ng-if=&quot;mainCtrl.config.slowPage&quot;&gt;
+
+        &lt;script href=&quot;&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+        &lt;script href=&quot;&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+        &lt;script href=&quot;&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+        &lt;img src=&quot;&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;&quot; alt=&quot;&quot;&gt;
+
+    &lt;/div&gt;
+
+&lt;/section&gt;
+
+
+
+&lt;social-media-drtv&gt;&lt;/social-media-drtv&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/app/views/home-page.html</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1703769305370" s="true" lb="GET 183 /app/user/views/register-page.html" rc="200" rm="" tn="DebugTestViewer 1-1" dt="text" de="" by="10016" sby="394" sc="1" ec="0" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Accept-Ranges: bytes
+ETag: W/&quot;9751-1640156092000&quot;
+Last-Modified: Wed, 22 Dec 2021 06:54:52 GMT
+Cache-Control: max-age=0
+Expires: Thu, 28 Dec 2023 13:15:05 GMT
+Content-Type: text/html
+Content-Length: 9751
+Date: Thu, 28 Dec 2023 13:15:05 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: text/html
+Content-Length: 0
+Content-Type: text/plain; charset=ISO-8859-1
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;nav class=&quot;pages&quot;&gt;
+    &lt;a translate=&quot;HOME&quot; href=&quot;#/&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;select&quot; translate=&quot;CREATE_ACCOUNT&quot;&gt; &lt;/a&gt;
+&lt;/nav&gt;
+&lt;section id=&quot;registerPage&quot;&gt;
+    &lt;article&gt;
+        &lt;h3 class=&quot;roboto-regular sticky fixedImportant fixed&quot; translate=&quot;CREATE_ACCOUNT&quot;&gt;&lt;/h3&gt;
+
+        &lt;sec-form sec-is-valid-form=&quot;isValidForm(valid)&quot;&gt;
+
+            &lt;div id=&quot;registerCover&quot; data-ng-hide=&quot;registerSuccess&quot;&gt;
+                &lt;div id=&quot;infoDemo&quot;&gt;
+                    &lt;info-demo a-title=&quot;{{&apos;NOTICE&apos; | translate }}&quot; a-lines=&quot;{{mainCtrl.getNoticeInfo()}}&quot;&gt;&lt;/info-demo&gt;
+                &lt;/div&gt;
+                &lt;div id=&quot;form&quot;&gt;
+
+                    &lt;div id=&quot;formCover&quot;&gt;
+
+                        &lt;div&gt;
+                            &lt;h3 translate=&quot;ACCOUNT_DETAILS&quot;&gt;&lt;/h3&gt;
+
+                            &lt;div class=&quot;spliter&quot;&gt;
+
+                                &lt;sec-view a-hint=&quot;{{&apos;User_name&apos; | translate}}&quot;
+                                          a-hint-description=&quot;RegisterPage&quot;
+                                          sec-model=&quot;model.username&quot;
+                                          sec-require=&quot;mainCtrl.getRequire(&apos;User_name&apos;)&quot;
+                                          sec-min-length=&quot;mainCtrl.getMin(5)&quot;
+                                          sec-max-length=&quot;mainCtrl.getMax(15)&quot;
+
+                                          sec-disable-validation=&quot;true&quot;
+                                          sec-name=&quot;userName&quot;&gt;
+                                &lt;/sec-view&gt;
+
+                                &lt;sec-view sec-name=&quot;userEmail&quot;
+                                          a-hint=&quot;{{&apos;Email&apos; | translate}}&quot;
+                                          a-hint-description=&quot;RegisterPage&quot;
+                                          sec-model=&quot;model.email&quot;
+                                          sec-require=&quot;mainCtrl.getRequire(&apos;Email&apos;)&quot;
+                                          sec-pattern=&quot;mainCtrl.getPattern(&apos;Email&apos;)&quot;&gt;
+                                &lt;/sec-view&gt;
+
+                            &lt;/div&gt;
+                            &lt;div class=&quot;spliter&quot;&gt;
+
+                                &lt;sec-view sec-name=&quot;userPassword&quot;
+                                          a-hint=&quot;{{&apos;Password&apos; | translate}}&quot;
+                                          a-hint-description=&quot;RegisterPage&quot;
+                                          a-type=&quot;password&quot;
+                                          sec-model=&quot;model.password&quot;
+                                          sec-require=&quot;mainCtrl.getRequire(&apos;Password&apos;)&quot;
+                                          sec-min-length=&quot;mainCtrl.getMin(4)&quot;
+                                          sec-max-length=&quot;mainCtrl.getMax(12)&quot;
+                                          sec-pattern=&quot;mainCtrl.getPattern(&apos;Password&apos;)&quot;&gt;
+                                &lt;/sec-view&gt;
+
+                                &lt;sec-view sec-name=&quot;userPassword&quot;
+                                          a-hint=&quot;{{&apos;Confirm_password&apos; | translate}}&quot;
+                                          a-hint-description=&quot;RegisterPage&quot;
+                                          a-type=&quot;password&quot;
+                                          sec-model=&quot;model.confirm_password&quot;
+                                          sec-require=&quot;mainCtrl.getRequire(&apos;Confirm_password&apos;)&quot;
+                                          sec-compare-to=&quot;mainCtrl.getCompare(&apos;Password&apos;, model.password)&quot;
+                                          sec-model-compare-to=&quot;model.password&quot;&gt;
+                                &lt;/sec-view&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+
+                        &lt;div&gt;
+                            &lt;h3 translate=&quot;PERSONAL_DETAILS&quot;&gt;&lt;/h3&gt;
+
+                            &lt;div class=&quot;spliter&quot;&gt;
+
+                                &lt;sec-view sec-name=&quot;userFirstName&quot;
+                                          a-hint=&quot;{{&apos;First_Name&apos; | translate}}&quot;
+                                          a-hint-description=&quot;RegisterPage&quot;
+                                          sec-model=&quot;model.firstName&quot;
+                                          sec-min-length=&quot;mainCtrl.getMin(2)&quot;
+                                          sec-max-length=&quot;mainCtrl.getMax(30)&quot;&gt;
+                                &lt;/sec-view&gt;
+
+                                &lt;sec-view sec-name=&quot;userLastName&quot;
+                                          a-hint=&quot;{{&apos;Last_Name&apos; | translate}}&quot;
+                                          a-hint-description=&quot;RegisterPage&quot;
+                                          sec-model=&quot;model.lastName&quot;
+                                          sec-min-length=&quot;mainCtrl.getMin(2)&quot;
+                                          sec-max-length=&quot;mainCtrl.getMax(30)&quot;&gt;
+                                &lt;/sec-view&gt;
+
+                            &lt;/div&gt;
+                            &lt;div class=&quot;spliter&quot;&gt;
+
+                                &lt;sec-view sec-name=&quot;userPhone&quot;
+                                          a-hint=&quot;{{&apos;Phone_Number&apos; | translate}}&quot;
+                                          a-hint-description=&quot;RegisterPage&quot;
+                                          sec-max-length=&quot;mainCtrl.getMax(20)&quot;
+                                          sec-model=&quot;model.phoneNumber&quot;&gt;
+                                &lt;/sec-view&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+
+
+                        &lt;div&gt;
+                            &lt;h3 translate=&quot;ADDRESS&quot;&gt;&lt;/h3&gt;
+
+                            &lt;div class=&quot;spliter&quot;&gt;
+
+                                &lt;sec-view sec-name=&quot;userCountry&quot;
+                                          a-hint=&quot;Country&quot;
+                                          a-hint-description=&quot;RegisterPage&quot;
+                                          a-type=&quot;select&quot;
+                                          a-show=&quot;name&quot;
+                                          sec-model=&quot;model.country&quot;
+                                          sec-select-options=&quot;countries&quot;&gt;
+                                &lt;/sec-view&gt;
+
+
+                                &lt;sec-view sec-name=&quot;userCity&quot;
+                                          a-hint=&quot;{{&apos;City&apos; | translate}}&quot;
+                                          a-hint-description=&quot;RegisterPage&quot;
+                                          sec-model=&quot;model.city&quot;
+                                          sec-max-length=&quot;mainCtrl.getMax(25)&quot;&gt;
+                                &lt;/sec-view&gt;
+
+                            &lt;/div&gt;
+                            &lt;div class=&quot;spliter&quot;&gt;
+
+                                &lt;sec-view sec-name=&quot;userAdress&quot;
+                                          a-hint=&quot;{{&apos;Address&apos; | translate}}&quot;
+                                          a-hint-description=&quot;RegisterPage&quot;
+                                          sec-model=&quot;model.address&quot;
+                                          sec-max-length=&quot;mainCtrl.getMax(50)&quot;&gt;
+                                &lt;/sec-view&gt;
+
+
+                                &lt;sec-view sec-name=&quot;userState&quot;
+                                          a-hint=&quot;{{&apos;State__Province__Region&apos; | translate}}&quot;
+                                          a-hint-description=&quot;RegisterPage&quot;
+                                          sec-model=&quot;model.state&quot;
+                                          sec-max-length=&quot;mainCtrl.getMax(10)&quot;&gt;
+                                &lt;/sec-view&gt;
+
+                            &lt;/div&gt;
+                            &lt;div class=&quot;spliter&quot;&gt;
+
+                                &lt;sec-view sec-name=&quot;userPostalCode&quot;
+                                          a-hint=&quot;{{&apos;Postal_Code&apos; | translate}}&quot;
+                                          a-hint-description=&quot;RegisterPage&quot;
+                                          sec-model=&quot;model.postalCode&quot;
+                                          sec-max-length=&quot;mainCtrl.getMax(10)&quot;&gt;
+                                &lt;/sec-view&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class=&quot;option marginTop&quot;&gt;
+                            &lt;input name=&quot;allowOffersPromotion&quot; ng-model=&quot;model.offers_promotion&quot; type=&quot;checkbox&quot; autocomplete=&quot;off&quot;/&gt;
+                            &lt;span class=&quot;roboto-light&quot; translate=&quot;offers_promotion&quot;&gt;&lt;/span&gt;
+                        &lt;/div&gt;
+
+                        &lt;sec-view
+                                sec-name=&quot;registrationAgreement&quot;
+                                a-dont-change=&quot;true&quot;
+                                sec-model=&quot;agree_Agreement&quot;
+                                a-type=&quot;checkbox&quot;
+                                sec-require=&quot;mainCtrl.getAgreeAgreementRequire()&quot;
+                        &gt;&lt;/sec-view&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;center&quot;&gt;
+
+                &lt;sec-sender class=&quot;roboto-medium&quot; a-value=&quot;{{&apos;REGISTER&apos; | translate}}&quot;
+                            sec-send=&quot;register()&quot; &gt;&lt;/sec-sender&gt;
+
+                &lt;label class=&quot;{{registerAnswer.class}} center block smollMargin&quot; data-ng-show=&quot;!registerSuccess&quot;&gt;
+                    {{registerAnswer.message}}
+                &lt;/label&gt;
+
+                &lt;label class=&quot;ALREADY_HAVE_AN_ACCOUNT roboto-medium&quot; data-ng-show=&quot;!registerSuccess&quot;&gt;
+                    &lt;a href=&quot;javascript:void(0)&quot; role=&quot;link&quot; translate=&quot;ALREADY_HAVE_AN_ACCOUNT&quot; ng-click=&quot;login()&quot;&gt;&lt;/a&gt;
+                &lt;/label&gt;
+
+            &lt;/div&gt;
+
+        &lt;/sec-form&gt;
+
+        &lt;div id=&quot;registerSuccessCover&quot; data-ng-show=&quot;registerSuccess&quot;&gt;
+            &lt;div class=&quot;center&quot;&gt;
+                &lt;h1 class=&quot;roboto-medium&quot;&gt; {{ &apos;Hi&apos; | translate }} {{ WellcomeName }}, &lt;/h1&gt;
+
+                &lt;p class=&quot;roboto-regular successMessage&quot;&gt;
+                    {{ &apos;your_Account_was_created_successfully&apos; | translate}}
+                &lt;/p&gt;
+                &lt;br/&gt;
+                &lt;a class=&quot;a-button&quot; href=&quot;/&quot;&gt; {{ &apos;CONTINUE_SHOPPING&apos; | translate}} &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/article&gt;
+&lt;/section&gt;
+
+&lt;social-media-drtv&gt;&lt;/social-media-drtv&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/app/user/views/register-page.html</java.net.URL>
+</httpSample>
+<httpSample t="343" it="0" lt="342" ct="0" ts="1703769305376" s="true" lb="POST 184 //accountservice/ws/GetCountriesRequest" rc="200" rm="" tn="DebugTestViewer 1-1" dt="text" de="utf-8" by="35503" sby="901" sc="1" ec="0" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-store
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Origin: *
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+SOAPAction: &quot;&quot;
+Content-Type: text/xml;charset=utf-8
+Content-Length: 34882
+Date: Thu, 28 Dec 2023 13:15:05 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+SOAPAction: com.advantage.online.store.accountserviceGetCountriesRequest
+Origin: http://localhost:8080
+Accept: application/xml, text/xml, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+Content-Type: text/xml; charset=UTF-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Content-Length: 339
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;SOAP-ENV:Envelope xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;SOAP-ENV:Header/&gt;&lt;SOAP-ENV:Body&gt;&lt;ns2:GetCountriesResponse xmlns:ns2=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;34&lt;/ns2:id&gt;&lt;ns2:name&gt;Afganistan&lt;/ns2:name&gt;&lt;ns2:isoName&gt;af&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;93&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;26&lt;/ns2:id&gt;&lt;ns2:name&gt;Albania&lt;/ns2:name&gt;&lt;ns2:isoName&gt;al&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;355&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;27&lt;/ns2:id&gt;&lt;ns2:name&gt;Algeria&lt;/ns2:name&gt;&lt;ns2:isoName&gt;dz&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;213&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;182&lt;/ns2:id&gt;&lt;ns2:name&gt;American Samoa&lt;/ns2:name&gt;&lt;ns2:isoName&gt;as&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1684&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;31&lt;/ns2:id&gt;&lt;ns2:name&gt;Andora&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ad&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;376&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;29&lt;/ns2:id&gt;&lt;ns2:name&gt;Angola&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ao&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;244&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;28&lt;/ns2:id&gt;&lt;ns2:name&gt;Anguilla&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ai&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1264&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;32&lt;/ns2:id&gt;&lt;ns2:name&gt;Antigua and Barbuda&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ag&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1268&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;36&lt;/ns2:id&gt;&lt;ns2:name&gt;Argentina&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ar&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;54&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;39&lt;/ns2:id&gt;&lt;ns2:name&gt;Armenia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;am&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;374&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;37&lt;/ns2:id&gt;&lt;ns2:name&gt;Aruba&lt;/ns2:name&gt;&lt;ns2:isoName&gt;aw&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;297&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;4&lt;/ns2:id&gt;&lt;ns2:name&gt;Australia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;au&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;61&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;3&lt;/ns2:id&gt;&lt;ns2:name&gt;Austria&lt;/ns2:name&gt;&lt;ns2:isoName&gt;at&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;43&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;7&lt;/ns2:id&gt;&lt;ns2:name&gt;Azerbaijan&lt;/ns2:name&gt;&lt;ns2:isoName&gt;az&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;994&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;10&lt;/ns2:id&gt;&lt;ns2:name&gt;Bahamas&lt;/ns2:name&gt;&lt;ns2:isoName&gt;bs&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1242&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;50&lt;/ns2:id&gt;&lt;ns2:name&gt;Bahrain&lt;/ns2:name&gt;&lt;ns2:isoName&gt;bh&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;973&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;54&lt;/ns2:id&gt;&lt;ns2:name&gt;Bangladesh&lt;/ns2:name&gt;&lt;ns2:isoName&gt;bd&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;880&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;56&lt;/ns2:id&gt;&lt;ns2:name&gt;Barbados&lt;/ns2:name&gt;&lt;ns2:isoName&gt;bb&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1246&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;51&lt;/ns2:id&gt;&lt;ns2:name&gt;Belarus&lt;/ns2:name&gt;&lt;ns2:isoName&gt;by&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;375&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;52&lt;/ns2:id&gt;&lt;ns2:name&gt;Belgium&lt;/ns2:name&gt;&lt;ns2:isoName&gt;be&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;32&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;53&lt;/ns2:id&gt;&lt;ns2:name&gt;Belize&lt;/ns2:name&gt;&lt;ns2:isoName&gt;bz&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;501&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;55&lt;/ns2:id&gt;&lt;ns2:name&gt;Benin&lt;/ns2:name&gt;&lt;ns2:isoName&gt;bj&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;229&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;59&lt;/ns2:id&gt;&lt;ns2:name&gt;Bermuda&lt;/ns2:name&gt;&lt;ns2:isoName&gt;bm&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1441&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;42&lt;/ns2:id&gt;&lt;ns2:name&gt;Bhutan&lt;/ns2:name&gt;&lt;ns2:isoName&gt;bt&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;975&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;45&lt;/ns2:id&gt;&lt;ns2:name&gt;Bolivia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;bo&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;591&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;46&lt;/ns2:id&gt;&lt;ns2:name&gt;Bonaire&lt;/ns2:name&gt;&lt;ns2:isoName&gt;an&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;5997&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;47&lt;/ns2:id&gt;&lt;ns2:name&gt;Bosnia and Herzegovina&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ba&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;387&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;43&lt;/ns2:id&gt;&lt;ns2:name&gt;Botswana&lt;/ns2:name&gt;&lt;ns2:isoName&gt;bw&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;267&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;58&lt;/ns2:id&gt;&lt;ns2:name&gt;Brazil&lt;/ns2:name&gt;&lt;ns2:isoName&gt;br&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;55&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;57&lt;/ns2:id&gt;&lt;ns2:name&gt;Brunei&lt;/ns2:name&gt;&lt;ns2:isoName&gt;bn&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;673&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;44&lt;/ns2:id&gt;&lt;ns2:name&gt;Bulgaria&lt;/ns2:name&gt;&lt;ns2:isoName&gt;bg&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;359&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;49&lt;/ns2:id&gt;&lt;ns2:name&gt;Burkina Faso&lt;/ns2:name&gt;&lt;ns2:isoName&gt;bf&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;226&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;48&lt;/ns2:id&gt;&lt;ns2:name&gt;Burundi &lt;/ns2:name&gt;&lt;ns2:isoName&gt;bi&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;257&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;225&lt;/ns2:id&gt;&lt;ns2:name&gt;Cambodia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;kh&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;855&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;226&lt;/ns2:id&gt;&lt;ns2:name&gt;Cameroon&lt;/ns2:name&gt;&lt;ns2:isoName&gt;cm&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;237&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;227&lt;/ns2:id&gt;&lt;ns2:name&gt;Canada&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ca&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;90&lt;/ns2:id&gt;&lt;ns2:name&gt;Canary Islands&lt;/ns2:name&gt;&lt;ns2:isoName&gt;es&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;34&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;128&lt;/ns2:id&gt;&lt;ns2:name&gt;Cape Verde aranelle&lt;/ns2:name&gt;&lt;ns2:isoName&gt;cv&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;238&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;19&lt;/ns2:id&gt;&lt;ns2:name&gt;Cayman Islands&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ky&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1345&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;102&lt;/ns2:id&gt;&lt;ns2:name&gt;Central African Republic&lt;/ns2:name&gt;&lt;ns2:isoName&gt;cf&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;236&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;208&lt;/ns2:id&gt;&lt;ns2:name&gt;Chad&lt;/ns2:name&gt;&lt;ns2:isoName&gt;td&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;235&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;209&lt;/ns2:id&gt;&lt;ns2:name&gt;Chile&lt;/ns2:name&gt;&lt;ns2:isoName&gt;cl&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;56&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;177&lt;/ns2:id&gt;&lt;ns2:name&gt;China&lt;/ns2:name&gt;&lt;ns2:isoName&gt;cn&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;86&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;214&lt;/ns2:id&gt;&lt;ns2:name&gt;Colombia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;co&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;57&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;215&lt;/ns2:id&gt;&lt;ns2:name&gt;Comoro Islands&lt;/ns2:name&gt;&lt;ns2:isoName&gt;km&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;269&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;103&lt;/ns2:id&gt;&lt;ns2:name&gt;Congo&lt;/ns2:name&gt;&lt;ns2:isoName&gt;cg&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;242&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;18&lt;/ns2:id&gt;&lt;ns2:name&gt;Cook Islands&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ck&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;682&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;217&lt;/ns2:id&gt;&lt;ns2:name&gt;Costa Rica&lt;/ns2:name&gt;&lt;ns2:isoName&gt;cr&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;506&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;230&lt;/ns2:id&gt;&lt;ns2:name&gt;Croatia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;hr&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;385&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;213&lt;/ns2:id&gt;&lt;ns2:name&gt;Cuba&lt;/ns2:name&gt;&lt;ns2:isoName&gt;cu&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;53&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;229&lt;/ns2:id&gt;&lt;ns2:name&gt;Cyprus&lt;/ns2:name&gt;&lt;ns2:isoName&gt;cy&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;357&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;210&lt;/ns2:id&gt;&lt;ns2:name&gt;Czech Republic&lt;/ns2:name&gt;&lt;ns2:isoName&gt;cz&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;420&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;101&lt;/ns2:id&gt;&lt;ns2:name&gt;Democratic Republic of Congo&lt;/ns2:name&gt;&lt;ns2:isoName&gt;cd&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;243&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;82&lt;/ns2:id&gt;&lt;ns2:name&gt;Denmark&lt;/ns2:name&gt;&lt;ns2:isoName&gt;dk&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;45&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;61&lt;/ns2:id&gt;&lt;ns2:name&gt;Djibouti&lt;/ns2:name&gt;&lt;ns2:isoName&gt;dj&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;253&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;81&lt;/ns2:id&gt;&lt;ns2:name&gt;Dominica&lt;/ns2:name&gt;&lt;ns2:isoName&gt;dm&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1767&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;100&lt;/ns2:id&gt;&lt;ns2:name&gt;Dominican Republic&lt;/ns2:name&gt;&lt;ns2:isoName&gt;do&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1809&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;91&lt;/ns2:id&gt;&lt;ns2:name&gt;Dutch (Netherlands) Antilles&lt;/ns2:name&gt;&lt;ns2:isoName&gt;an&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;599&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;148&lt;/ns2:id&gt;&lt;ns2:name&gt;East Timor&lt;/ns2:name&gt;&lt;ns2:isoName&gt;tl&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;670&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;35&lt;/ns2:id&gt;&lt;ns2:name&gt;Ecuador&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ec&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;593&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;155&lt;/ns2:id&gt;&lt;ns2:name&gt;Egypt&lt;/ns2:name&gt;&lt;ns2:isoName&gt;eg&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;20&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;25&lt;/ns2:id&gt;&lt;ns2:name&gt;El Salvador&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sv&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;503&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;30&lt;/ns2:id&gt;&lt;ns2:name&gt;England&lt;/ns2:name&gt;&lt;ns2:isoName&gt;uk&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;44&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;75&lt;/ns2:id&gt;&lt;ns2:name&gt;Equatorial Guinea&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gq&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;240&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;38&lt;/ns2:id&gt;&lt;ns2:name&gt;Eritrea &lt;/ns2:name&gt;&lt;ns2:isoName&gt;er&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;291&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;33&lt;/ns2:id&gt;&lt;ns2:name&gt;Estonia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ee&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;372&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;41&lt;/ns2:id&gt;&lt;ns2:name&gt;Ethiopia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;et&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;251&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;17&lt;/ns2:id&gt;&lt;ns2:name&gt;Falkland Islands&lt;/ns2:name&gt;&lt;ns2:isoName&gt;fk&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;500&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;201&lt;/ns2:id&gt;&lt;ns2:name&gt;Fiji&lt;/ns2:name&gt;&lt;ns2:isoName&gt;fj&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;679&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;202&lt;/ns2:id&gt;&lt;ns2:name&gt;Finland&lt;/ns2:name&gt;&lt;ns2:isoName&gt;fi&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;358&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;212&lt;/ns2:id&gt;&lt;ns2:name&gt;France&lt;/ns2:name&gt;&lt;ns2:isoName&gt;fr&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;33&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;71&lt;/ns2:id&gt;&lt;ns2:name&gt;French Guyana&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gf&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;594&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;199&lt;/ns2:id&gt;&lt;ns2:name&gt;French Polynesia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;pf&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;589&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;66&lt;/ns2:id&gt;&lt;ns2:name&gt;Gabonaise&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ga&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;241&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;76&lt;/ns2:id&gt;&lt;ns2:name&gt;Gambia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gm&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;220&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;64&lt;/ns2:id&gt;&lt;ns2:name&gt;Georgia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ge&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;995&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;78&lt;/ns2:id&gt;&lt;ns2:name&gt;Germany&lt;/ns2:name&gt;&lt;ns2:isoName&gt;de&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;49&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;65&lt;/ns2:id&gt;&lt;ns2:name&gt;Ghana&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gh&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;233&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;72&lt;/ns2:id&gt;&lt;ns2:name&gt;Gibraltar&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gi&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;350&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;123&lt;/ns2:id&gt;&lt;ns2:name&gt;Greece&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gr&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;30&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;77&lt;/ns2:id&gt;&lt;ns2:name&gt;Greenland&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gl&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;299&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;79&lt;/ns2:id&gt;&lt;ns2:name&gt;Grenada&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gd&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1473&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;69&lt;/ns2:id&gt;&lt;ns2:name&gt;Guadeloupe&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gp&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;590&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;68&lt;/ns2:id&gt;&lt;ns2:name&gt;Guam&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gu&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1671&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;67&lt;/ns2:id&gt;&lt;ns2:name&gt;Guatemala&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gt&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;502&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;80&lt;/ns2:id&gt;&lt;ns2:name&gt;Guernsey&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gg&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;441481&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;73&lt;/ns2:id&gt;&lt;ns2:name&gt;Guinea&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gn&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;224&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;74&lt;/ns2:id&gt;&lt;ns2:name&gt;Guinea Bissau&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gw&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;245&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;70&lt;/ns2:id&gt;&lt;ns2:name&gt;Guyana&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gy&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;592&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;88&lt;/ns2:id&gt;&lt;ns2:name&gt;Haiti&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ht&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;509&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;93&lt;/ns2:id&gt;&lt;ns2:name&gt;Hawai&lt;/ns2:name&gt;&lt;ns2:isoName&gt;us&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1808&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;85&lt;/ns2:id&gt;&lt;ns2:name&gt;Heard Island&lt;/ns2:name&gt;&lt;ns2:isoName&gt;hm&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;61&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;97&lt;/ns2:id&gt;&lt;ns2:name&gt;Honduras&lt;/ns2:name&gt;&lt;ns2:isoName&gt;hn&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;504&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;95&lt;/ns2:id&gt;&lt;ns2:name&gt;Hong Kong&lt;/ns2:name&gt;&lt;ns2:isoName&gt;hk&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;852&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;96&lt;/ns2:id&gt;&lt;ns2:name&gt;Hungary&lt;/ns2:name&gt;&lt;ns2:isoName&gt;hu&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;36&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;22&lt;/ns2:id&gt;&lt;ns2:name&gt;Iceland&lt;/ns2:name&gt;&lt;ns2:isoName&gt;is&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;354&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;92&lt;/ns2:id&gt;&lt;ns2:name&gt;India&lt;/ns2:name&gt;&lt;ns2:isoName&gt;in&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;91&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;21&lt;/ns2:id&gt;&lt;ns2:name&gt;Indonesia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;id&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;62&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;24&lt;/ns2:id&gt;&lt;ns2:name&gt;Iran&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ir&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;98&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;194&lt;/ns2:id&gt;&lt;ns2:name&gt;Iraq&lt;/ns2:name&gt;&lt;ns2:isoName&gt;iq&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;964&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;23&lt;/ns2:id&gt;&lt;ns2:name&gt;Ireland&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ie&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;353&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;86&lt;/ns2:id&gt;&lt;ns2:name&gt;Isle of Man&lt;/ns2:name&gt;&lt;ns2:isoName&gt;im&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;441624&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;126&lt;/ns2:id&gt;&lt;ns2:name&gt;Israel&lt;/ns2:name&gt;&lt;ns2:isoName&gt;il&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;972&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;9&lt;/ns2:id&gt;&lt;ns2:name&gt;Italy&lt;/ns2:name&gt;&lt;ns2:isoName&gt;it&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;39&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;113&lt;/ns2:id&gt;&lt;ns2:name&gt;Ivory Cost&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ci&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;225&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;62&lt;/ns2:id&gt;&lt;ns2:name&gt;Jamaica&lt;/ns2:name&gt;&lt;ns2:isoName&gt;jm&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1876&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;124&lt;/ns2:id&gt;&lt;ns2:name&gt;Japan&lt;/ns2:name&gt;&lt;ns2:isoName&gt;jp&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;81&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;63&lt;/ns2:id&gt;&lt;ns2:name&gt;Jersey&lt;/ns2:name&gt;&lt;ns2:isoName&gt;je&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;441534&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;125&lt;/ns2:id&gt;&lt;ns2:name&gt;Jordan&lt;/ns2:name&gt;&lt;ns2:isoName&gt;jo&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;962&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;220&lt;/ns2:id&gt;&lt;ns2:name&gt;Kazakhstan&lt;/ns2:name&gt;&lt;ns2:isoName&gt;kz&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;7&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;228&lt;/ns2:id&gt;&lt;ns2:name&gt;Kenya&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ke&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;254&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;223&lt;/ns2:id&gt;&lt;ns2:name&gt;Kiribati&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ki&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;686&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;216&lt;/ns2:id&gt;&lt;ns2:name&gt;Kosovo&lt;/ns2:name&gt;&lt;ns2:isoName&gt;rs&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;383&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;127&lt;/ns2:id&gt;&lt;ns2:name&gt;Kuwait&lt;/ns2:name&gt;&lt;ns2:isoName&gt;kw&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;965&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;222&lt;/ns2:id&gt;&lt;ns2:name&gt;Kyrgyzstan&lt;/ns2:name&gt;&lt;ns2:isoName&gt;kg&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;996&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;129&lt;/ns2:id&gt;&lt;ns2:name&gt;Laos&lt;/ns2:name&gt;&lt;ns2:isoName&gt;la&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;856&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;133&lt;/ns2:id&gt;&lt;ns2:name&gt;Latvia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;lv&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;371&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;130&lt;/ns2:id&gt;&lt;ns2:name&gt;Lebanon&lt;/ns2:name&gt;&lt;ns2:isoName&gt;lb&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;961&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;137&lt;/ns2:id&gt;&lt;ns2:name&gt;Lesotho&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ls&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;266&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;134&lt;/ns2:id&gt;&lt;ns2:name&gt;Liberia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;lr&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;231&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;131&lt;/ns2:id&gt;&lt;ns2:name&gt;Libya&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ly&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;218&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;136&lt;/ns2:id&gt;&lt;ns2:name&gt;Liechtenstein&lt;/ns2:name&gt;&lt;ns2:isoName&gt;li&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;423&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;135&lt;/ns2:id&gt;&lt;ns2:name&gt;Lithuania&lt;/ns2:name&gt;&lt;ns2:isoName&gt;lt&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;370&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;132&lt;/ns2:id&gt;&lt;ns2:name&gt;Luxembourg&lt;/ns2:name&gt;&lt;ns2:isoName&gt;lu&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;352&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;156&lt;/ns2:id&gt;&lt;ns2:name&gt;Macau&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mo&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;853&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;157&lt;/ns2:id&gt;&lt;ns2:name&gt;Macedonia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mk&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;389&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;87&lt;/ns2:id&gt;&lt;ns2:name&gt;Macquarie Island&lt;/ns2:name&gt;&lt;ns2:isoName&gt;aq&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;6721&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;141&lt;/ns2:id&gt;&lt;ns2:name&gt;Madagascar&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mg&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;261&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;152&lt;/ns2:id&gt;&lt;ns2:name&gt;Malawi&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mw&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;265&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;153&lt;/ns2:id&gt;&lt;ns2:name&gt;Malaysia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;my&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;60&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;89&lt;/ns2:id&gt;&lt;ns2:name&gt;maldives Islands&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mv&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;960&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;140&lt;/ns2:id&gt;&lt;ns2:name&gt;Mali&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ml&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;223&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;154&lt;/ns2:id&gt;&lt;ns2:name&gt;Malta&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mt&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;356&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;159&lt;/ns2:id&gt;&lt;ns2:name&gt;Marocco&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ma&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;212&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;15&lt;/ns2:id&gt;&lt;ns2:name&gt;Marshal Islands&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mh&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;692&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;160&lt;/ns2:id&gt;&lt;ns2:name&gt;Martinique &lt;/ns2:name&gt;&lt;ns2:isoName&gt;mq&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;596&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;138&lt;/ns2:id&gt;&lt;ns2:name&gt;Mauritania&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mr&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;222&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;139&lt;/ns2:id&gt;&lt;ns2:name&gt;Mauritius&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mu&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;230&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;150&lt;/ns2:id&gt;&lt;ns2:name&gt;Mayotte&lt;/ns2:name&gt;&lt;ns2:isoName&gt;yt&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;262&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;158&lt;/ns2:id&gt;&lt;ns2:name&gt;Mexico&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mx&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;52&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;151&lt;/ns2:id&gt;&lt;ns2:name&gt;Micronesia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;fm&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;691&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;14&lt;/ns2:id&gt;&lt;ns2:name&gt;Midway Atol&lt;/ns2:name&gt;&lt;ns2:isoName&gt;um&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1808&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;143&lt;/ns2:id&gt;&lt;ns2:name&gt;Moldova&lt;/ns2:name&gt;&lt;ns2:isoName&gt;md&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;373&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;144&lt;/ns2:id&gt;&lt;ns2:name&gt;Monaco&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mc&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;377&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;145&lt;/ns2:id&gt;&lt;ns2:name&gt;Mongolia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mn&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;976&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;146&lt;/ns2:id&gt;&lt;ns2:name&gt;Montenegro&lt;/ns2:name&gt;&lt;ns2:isoName&gt;me&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;382&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;147&lt;/ns2:id&gt;&lt;ns2:name&gt;Montserrat&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ms&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1664&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;142&lt;/ns2:id&gt;&lt;ns2:name&gt;Mozambique&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mz&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;258&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;149&lt;/ns2:id&gt;&lt;ns2:name&gt;Myanmar (Burma)&lt;/ns2:name&gt;&lt;ns2:isoName&gt;mm&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;95&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;167&lt;/ns2:id&gt;&lt;ns2:name&gt;Namibia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;na&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;264&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;161&lt;/ns2:id&gt;&lt;ns2:name&gt;Nauru&lt;/ns2:name&gt;&lt;ns2:isoName&gt;nr&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;674&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;168&lt;/ns2:id&gt;&lt;ns2:name&gt;Nepal&lt;/ns2:name&gt;&lt;ns2:isoName&gt;np&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;977&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;94&lt;/ns2:id&gt;&lt;ns2:name&gt;Netherland&lt;/ns2:name&gt;&lt;ns2:isoName&gt;nl&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;31&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;224&lt;/ns2:id&gt;&lt;ns2:name&gt;New Caledonia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;nc&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;687&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;164&lt;/ns2:id&gt;&lt;ns2:name&gt;New Zealand&lt;/ns2:name&gt;&lt;ns2:isoName&gt;nz&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;64&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;166&lt;/ns2:id&gt;&lt;ns2:name&gt;Nicaragua&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ni&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;505&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;165&lt;/ns2:id&gt;&lt;ns2:name&gt;Niger&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ne&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;227&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;163&lt;/ns2:id&gt;&lt;ns2:name&gt;Nigeria&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ng&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;234&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;16&lt;/ns2:id&gt;&lt;ns2:name&gt;Norfolk Islands&lt;/ns2:name&gt;&lt;ns2:isoName&gt;nf&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;6723&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;219&lt;/ns2:id&gt;&lt;ns2:name&gt;North Korea&lt;/ns2:name&gt;&lt;ns2:isoName&gt;kp&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;850&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;211&lt;/ns2:id&gt;&lt;ns2:name&gt;Northen Ireland&lt;/ns2:name&gt;&lt;ns2:isoName&gt;uk&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;44&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;162&lt;/ns2:id&gt;&lt;ns2:name&gt;Norway&lt;/ns2:name&gt;&lt;ns2:isoName&gt;no&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;47&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;193&lt;/ns2:id&gt;&lt;ns2:name&gt;Oman&lt;/ns2:name&gt;&lt;ns2:isoName&gt;om&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;968&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;205&lt;/ns2:id&gt;&lt;ns2:name&gt;Pakistan&lt;/ns2:name&gt;&lt;ns2:isoName&gt;pk&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;92&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;203&lt;/ns2:id&gt;&lt;ns2:name&gt;Palau&lt;/ns2:name&gt;&lt;ns2:isoName&gt;pw&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;680&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;104&lt;/ns2:id&gt;&lt;ns2:name&gt;Palestinian Authority&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ps&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;970&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;204&lt;/ns2:id&gt;&lt;ns2:name&gt;Panama&lt;/ns2:name&gt;&lt;ns2:isoName&gt;pa&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;507&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;206&lt;/ns2:id&gt;&lt;ns2:name&gt;Paraguay&lt;/ns2:name&gt;&lt;ns2:isoName&gt;py&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;595&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;207&lt;/ns2:id&gt;&lt;ns2:name&gt;Peru&lt;/ns2:name&gt;&lt;ns2:isoName&gt;pe&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;51&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;99&lt;/ns2:id&gt;&lt;ns2:name&gt;Philippines&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ph&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;63&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;198&lt;/ns2:id&gt;&lt;ns2:name&gt;Poland&lt;/ns2:name&gt;&lt;ns2:isoName&gt;pl&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;48&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;200&lt;/ns2:id&gt;&lt;ns2:name&gt;Portugal&lt;/ns2:name&gt;&lt;ns2:isoName&gt;pt&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;351&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;196&lt;/ns2:id&gt;&lt;ns2:name&gt;Puerto Rico&lt;/ns2:name&gt;&lt;ns2:isoName&gt;pr&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1939&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;197&lt;/ns2:id&gt;&lt;ns2:name&gt;Puerto Rico&lt;/ns2:name&gt;&lt;ns2:isoName&gt;pr&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1787&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;221&lt;/ns2:id&gt;&lt;ns2:name&gt;Qatar&lt;/ns2:name&gt;&lt;ns2:isoName&gt;qa&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;974&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;233&lt;/ns2:id&gt;&lt;ns2:name&gt;Reunion&lt;/ns2:name&gt;&lt;ns2:isoName&gt;re&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;262&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;235&lt;/ns2:id&gt;&lt;ns2:name&gt;Romania&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ro&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;40&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;236&lt;/ns2:id&gt;&lt;ns2:name&gt;Russia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ru&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;7&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;234&lt;/ns2:id&gt;&lt;ns2:name&gt;Rwanda&lt;/ns2:name&gt;&lt;ns2:isoName&gt;rw&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;250&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;185&lt;/ns2:id&gt;&lt;ns2:name&gt;Saint Helena Island&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sh&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;290&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;188&lt;/ns2:id&gt;&lt;ns2:name&gt;Saint Kitts and Nevis&lt;/ns2:name&gt;&lt;ns2:isoName&gt;kn&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1869&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;186&lt;/ns2:id&gt;&lt;ns2:name&gt;Saint Vincent and the Grenadines&lt;/ns2:name&gt;&lt;ns2:isoName&gt;vc&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1784&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;181&lt;/ns2:id&gt;&lt;ns2:name&gt;Samoa&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ws&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;685&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;183&lt;/ns2:id&gt;&lt;ns2:name&gt;San Marino&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sm&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;378&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;169&lt;/ns2:id&gt;&lt;ns2:name&gt;Sao Tome&lt;/ns2:name&gt;&lt;ns2:isoName&gt;st&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;239&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;195&lt;/ns2:id&gt;&lt;ns2:name&gt;Saudi Arabia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sa&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;966&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;190&lt;/ns2:id&gt;&lt;ns2:name&gt;Scotland &lt;/ns2:name&gt;&lt;ns2:isoName&gt;uk&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;44&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;184&lt;/ns2:id&gt;&lt;ns2:name&gt;Senegal&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sn&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;221&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;191&lt;/ns2:id&gt;&lt;ns2:name&gt;Serbia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;rs&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;381&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;176&lt;/ns2:id&gt;&lt;ns2:name&gt;Seychelles Islands&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sc&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;248&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;175&lt;/ns2:id&gt;&lt;ns2:name&gt;Sierra Leone&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sl&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;232&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;178&lt;/ns2:id&gt;&lt;ns2:name&gt;Singapore&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sg&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;65&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;180&lt;/ns2:id&gt;&lt;ns2:name&gt;Slovakia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sk&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;421&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;179&lt;/ns2:id&gt;&lt;ns2:name&gt;Slovenia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;si&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;386&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;20&lt;/ns2:id&gt;&lt;ns2:name&gt;Solomon Islands&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sb&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;677&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;172&lt;/ns2:id&gt;&lt;ns2:name&gt;Somalia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;so&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;252&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;83&lt;/ns2:id&gt;&lt;ns2:name&gt;South Africa&lt;/ns2:name&gt;&lt;ns2:isoName&gt;za&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;27&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;60&lt;/ns2:id&gt;&lt;ns2:name&gt;South Georgia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;gs&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;44&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;218&lt;/ns2:id&gt;&lt;ns2:name&gt;South Korea&lt;/ns2:name&gt;&lt;ns2:isoName&gt;kr&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;82&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;84&lt;/ns2:id&gt;&lt;ns2:name&gt;South Sudan&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ss&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;211&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;189&lt;/ns2:id&gt;&lt;ns2:name&gt;Spain&lt;/ns2:name&gt;&lt;ns2:isoName&gt;es&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;34&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;192&lt;/ns2:id&gt;&lt;ns2:name&gt;Sri Lanka&lt;/ns2:name&gt;&lt;ns2:isoName&gt;lk&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;94&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;187&lt;/ns2:id&gt;&lt;ns2:name&gt;St. Lucia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;lc&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1758&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;170&lt;/ns2:id&gt;&lt;ns2:name&gt;Sudan&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sd&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;249&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;174&lt;/ns2:id&gt;&lt;ns2:name&gt;Surinam&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sr&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;597&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;171&lt;/ns2:id&gt;&lt;ns2:name&gt;Swaziland&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sz&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;268&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;237&lt;/ns2:id&gt;&lt;ns2:name&gt;Sweden&lt;/ns2:name&gt;&lt;ns2:isoName&gt;se&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;46&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;238&lt;/ns2:id&gt;&lt;ns2:name&gt;Switzerland&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ch&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;41&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;173&lt;/ns2:id&gt;&lt;ns2:name&gt;Syria&lt;/ns2:name&gt;&lt;ns2:isoName&gt;sy&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;963&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;115&lt;/ns2:id&gt;&lt;ns2:name&gt;Tadzhikistan&lt;/ns2:name&gt;&lt;ns2:isoName&gt;tj&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;992&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;114&lt;/ns2:id&gt;&lt;ns2:name&gt;Taiwan&lt;/ns2:name&gt;&lt;ns2:isoName&gt;tw&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;886&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;121&lt;/ns2:id&gt;&lt;ns2:name&gt;Tanzania&lt;/ns2:name&gt;&lt;ns2:isoName&gt;tz&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;255&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;239&lt;/ns2:id&gt;&lt;ns2:name&gt;Thailand&lt;/ns2:name&gt;&lt;ns2:isoName&gt;th&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;66&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;116&lt;/ns2:id&gt;&lt;ns2:name&gt;Togo (Togolese)&lt;/ns2:name&gt;&lt;ns2:isoName&gt;tg&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;228&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;118&lt;/ns2:id&gt;&lt;ns2:name&gt;Tokelau&lt;/ns2:name&gt;&lt;ns2:isoName&gt;tk&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;690&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;117&lt;/ns2:id&gt;&lt;ns2:name&gt;Tonga&lt;/ns2:name&gt;&lt;ns2:isoName&gt;to&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;676&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;122&lt;/ns2:id&gt;&lt;ns2:name&gt;Trinidad and Tobago&lt;/ns2:name&gt;&lt;ns2:isoName&gt;tt&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1868&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;240&lt;/ns2:id&gt;&lt;ns2:name&gt;Tunisia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;tn&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;216&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;119&lt;/ns2:id&gt;&lt;ns2:name&gt;Turkey&lt;/ns2:name&gt;&lt;ns2:isoName&gt;tr&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;90&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;120&lt;/ns2:id&gt;&lt;ns2:name&gt;Turkmenistan &lt;/ns2:name&gt;&lt;ns2:isoName&gt;tm&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;993&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;13&lt;/ns2:id&gt;&lt;ns2:name&gt;Turks and Caicos Islands&lt;/ns2:name&gt;&lt;ns2:isoName&gt;tc&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1649&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;1&lt;/ns2:id&gt;&lt;ns2:name&gt;Uganda&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ug&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;256&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;5&lt;/ns2:id&gt;&lt;ns2:name&gt;Ukraine&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ua&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;380&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;8&lt;/ns2:id&gt;&lt;ns2:name&gt;United Arab Emirates&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ae&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;971&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;98&lt;/ns2:id&gt;&lt;ns2:name&gt;United Kingdom&lt;/ns2:name&gt;&lt;ns2:isoName&gt;uk&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;44&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;40&lt;/ns2:id&gt;&lt;ns2:name&gt;United States&lt;/ns2:name&gt;&lt;ns2:isoName&gt;us&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;6&lt;/ns2:id&gt;&lt;ns2:name&gt;Uruguay&lt;/ns2:name&gt;&lt;ns2:isoName&gt;uy&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;598&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;2&lt;/ns2:id&gt;&lt;ns2:name&gt;Uzbekistan&lt;/ns2:name&gt;&lt;ns2:isoName&gt;uz&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;998&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;108&lt;/ns2:id&gt;&lt;ns2:name&gt;Vanuatu&lt;/ns2:name&gt;&lt;ns2:isoName&gt;vu&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;678&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;231&lt;/ns2:id&gt;&lt;ns2:name&gt;Vatican&lt;/ns2:name&gt;&lt;ns2:isoName&gt;va&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;379&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;232&lt;/ns2:id&gt;&lt;ns2:name&gt;Vatican&lt;/ns2:name&gt;&lt;ns2:isoName&gt;va&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;3906&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;109&lt;/ns2:id&gt;&lt;ns2:name&gt;Venezuela&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ve&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;58&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;106&lt;/ns2:id&gt;&lt;ns2:name&gt;Vietnam&lt;/ns2:name&gt;&lt;ns2:isoName&gt;vn&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;84&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;12&lt;/ns2:id&gt;&lt;ns2:name&gt;Virgin Islands (UK)&lt;/ns2:name&gt;&lt;ns2:isoName&gt;vg&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1284&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;11&lt;/ns2:id&gt;&lt;ns2:name&gt;Virgin Islands (USA)&lt;/ns2:name&gt;&lt;ns2:isoName&gt;vi&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;1340&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;107&lt;/ns2:id&gt;&lt;ns2:name&gt;Wales&lt;/ns2:name&gt;&lt;ns2:isoName&gt;uk&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;44&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;105&lt;/ns2:id&gt;&lt;ns2:name&gt;Wallis and Futuna Islands&lt;/ns2:name&gt;&lt;ns2:isoName&gt;wf&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;861&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;241&lt;/ns2:id&gt;&lt;ns2:name&gt;Yemen&lt;/ns2:name&gt;&lt;ns2:isoName&gt;ye&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;967&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;111&lt;/ns2:id&gt;&lt;ns2:name&gt;Zambia&lt;/ns2:name&gt;&lt;ns2:isoName&gt;zm&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;260&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;112&lt;/ns2:id&gt;&lt;ns2:name&gt;Zanzibar &lt;/ns2:name&gt;&lt;ns2:isoName&gt;tz&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;25524&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;ns2:Country&gt;&lt;ns2:id&gt;110&lt;/ns2:id&gt;&lt;ns2:name&gt;Zimbabwe &lt;/ns2:name&gt;&lt;ns2:isoName&gt;zw&lt;/ns2:isoName&gt;&lt;ns2:phonePrefix&gt;263&lt;/ns2:phonePrefix&gt;&lt;/ns2:Country&gt;&lt;/ns2:GetCountriesResponse&gt;&lt;/SOAP-ENV:Body&gt;&lt;/SOAP-ENV:Envelope&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;GetCountriesRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;/GetCountriesRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</queryString>
+  <java.net.URL>http://localhost:8080//accountservice/ws/GetCountriesRequest</java.net.URL>
+</httpSample>
+<httpSample t="119" it="0" lt="119" ct="0" ts="1703769305726" s="true" lb="POST189 //accountservice/ws/AccountCreateRequest" rc="200" rm="" tn="DebugTestViewer 1-1" dt="text" de="utf-8" by="1034" sby="1322" sc="1" ec="0" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-store
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Origin: *
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+SOAPAction: &quot;&quot;
+Content-Type: text/xml;charset=utf-8
+Content-Length: 415
+Date: Thu, 28 Dec 2023 13:15:05 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+SOAPAction: com.advantage.online.store.accountserviceAccountCreateRequest
+Origin: http://localhost:8080
+Accept: application/xml, text/xml, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+Content-Type: text/xml; charset=UTF-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Content-Length: 758
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;SOAP-ENV:Envelope xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;SOAP-ENV:Header/&gt;&lt;SOAP-ENV:Body&gt;&lt;ns2:AccountCreateResponse xmlns:ns2=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;ns2:StatusMessage&gt;&lt;ns2:success&gt;true&lt;/ns2:success&gt;&lt;ns2:userId&gt;293685577&lt;/ns2:userId&gt;&lt;ns2:reason&gt;New user created successfully.&lt;/ns2:reason&gt;&lt;/ns2:StatusMessage&gt;&lt;/ns2:AccountCreateResponse&gt;&lt;/SOAP-ENV:Body&gt;&lt;/SOAP-ENV:Envelope&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;AccountCreateRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;accountType&gt;USER&lt;/accountType&gt;&lt;address&gt;bermuda&lt;/address&gt;&lt;allowOffersPromotion&gt;true&lt;/allowOffersPromotion&gt;&lt;cityName&gt;bermuda&lt;/cityName&gt;&lt;countryId&gt;Bermuda,bm&lt;/countryId&gt;&lt;email&gt;qwerty@qwer.qwerty&lt;/email&gt;&lt;firstName&gt;qwert&lt;/firstName&gt;&lt;lastName&gt;qwert&lt;/lastName&gt;&lt;loginName&gt;egceedgddb&lt;/loginName&gt;&lt;password&gt;dgeeeeeAbd1&lt;/password&gt;&lt;phoneNumber&gt;123qwE&lt;/phoneNumber&gt;&lt;stateProvince&gt;mudamuda&lt;/stateProvince&gt;&lt;zipcode&gt;qwertyu&lt;/zipcode&gt;&lt;/AccountCreateRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</queryString>
+  <java.net.URL>http://localhost:8080//accountservice/ws/AccountCreateRequest</java.net.URL>
+</httpSample>
+<httpSample t="312" it="0" lt="312" ct="0" ts="1703769305846" s="true" lb="POST 190 //accountservice/ws/AccountLoginRequest" rc="200" rm="" tn="DebugTestViewer 1-1" dt="text" de="utf-8" by="1406" sby="1000" sc="1" ec="0" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-store
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Origin: *
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+SOAPAction: &quot;&quot;
+Content-Type: text/xml;charset=utf-8
+Content-Length: 787
+Date: Thu, 28 Dec 2023 13:15:05 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+SOAPAction: com.advantage.online.store.accountserviceAccountLoginRequest
+Origin: http://localhost:8080
+Accept: application/xml, text/xml, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+Content-Type: text/xml; charset=UTF-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Content-Length: 438
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;SOAP-ENV:Envelope xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;SOAP-ENV:Header/&gt;&lt;SOAP-ENV:Body&gt;&lt;ns2:AccountLoginResponse xmlns:ns2=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;ns2:StatusMessage&gt;&lt;ns2:success&gt;true&lt;/ns2:success&gt;&lt;ns2:userId&gt;802866589&lt;/ns2:userId&gt;&lt;ns2:reason&gt;Login Successful&lt;/ns2:reason&gt;&lt;ns2:token&gt;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3d3cuYWR2YW50YWdlb25saW5lc2hvcHBpbmcuY29tIiwidXNlcklkIjo4MDI4NjY1ODksInN1YiI6InF3ZXJ0eSIsInJvbGUiOiJVU0VSIn0.E18rPsocK20r1Gbly8nGsQxiyTilLAX6pS4T-YjObIk&lt;/ns2:token&gt;&lt;ns2:sessionId&gt;18cb09073eb@7E7C1C12F6^i%802866589&lt;/ns2:sessionId&gt;&lt;ns2:t_authorization&gt;cXdlcnR5OjEyM3F3RQ==&lt;/ns2:t_authorization&gt;&lt;ns2:accountType&gt;20&lt;/ns2:accountType&gt;&lt;/ns2:StatusMessage&gt;&lt;/ns2:AccountLoginResponse&gt;&lt;/SOAP-ENV:Body&gt;&lt;/SOAP-ENV:Envelope&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;AccountLoginRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;email&gt;qwerty@qwer.qwerty&lt;/email&gt;&lt;loginPassword&gt;123qwE&lt;/loginPassword&gt;&lt;loginUser&gt;qwerty&lt;/loginUser&gt;&lt;/AccountLoginRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</queryString>
+  <java.net.URL>http://localhost:8080//accountservice/ws/AccountLoginRequest</java.net.URL>
+</httpSample>
+<httpSample t="324" it="0" lt="324" ct="0" ts="1703769306159" s="true" lb="POST 192 //accountservice/ws/AccountLogoutRequest" rc="200" rm="" tn="DebugTestViewer 1-1" dt="text" de="utf-8" by="1021" sby="990" sc="1" ec="0" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-store
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Origin: *
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+SOAPAction: &quot;&quot;
+Content-Type: text/xml;charset=utf-8
+Content-Length: 402
+Date: Thu, 28 Dec 2023 13:15:06 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+SOAPAction: com.advantage.online.store.accountserviceAccountLogoutRequest
+Origin: http://localhost:8080
+X-Requested-With: XMLHttpRequest
+Content-Type: text/xml; charset=UTF-8
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: application/xml, text/xml, */*; q=0.01
+Content-Length: 426
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;SOAP-ENV:Envelope xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;SOAP-ENV:Header/&gt;&lt;SOAP-ENV:Body&gt;&lt;ns2:AccountLogoutResponse xmlns:ns2=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;ns2:StatusMessage&gt;&lt;ns2:success&gt;true&lt;/ns2:success&gt;&lt;ns2:userId&gt;802866589&lt;/ns2:userId&gt;&lt;ns2:reason&gt;Logout Successful&lt;/ns2:reason&gt;&lt;/ns2:StatusMessage&gt;&lt;/ns2:AccountLogoutResponse&gt;&lt;/SOAP-ENV:Body&gt;&lt;/SOAP-ENV:Envelope&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;AccountLogoutRequest xmlns=&quot;com.advantage.online.store.accountservice&quot;&gt;&lt;loginUser&gt;802866589&lt;/loginUser&gt;&lt;base64Token&gt;Basic cXdlcnR5OjEyM3F3RQ==&lt;/base64Token&gt;&lt;/AccountLogoutRequest&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</queryString>
+  <java.net.URL>http://localhost:8080//accountservice/ws/AccountLogoutRequest</java.net.URL>
+</httpSample>
+<sample t="1109" it="20" lt="1108" ct="2" ts="1703769305355" s="true" lb="TC 189 //accountservice/ws/AccountCreateRequest" rc="200" rm="Number of samples in transaction : 6, number of failing samples : 0" tn="DebugTestViewer 1-1" dt="" de="" by="61710" sby="4992" sc="1" ec="0" ng="1" na="1">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="1703769306485" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="DebugTestViewer 1-1" dt="text" de="windows-1251" by="426" sby="0" sc="1" ec="0" ng="1" na="1">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@650111c0
+PORT=8080
+PROTOCOL=http
+Password_var=dgeeeeeAbd1
+START.HMS=095525
+START.MS=1703739325627
+START.YMD=20231228
+TESTSTART.MS=1703769305289
+UserID=802866589
+UserID_g=1
+UserID_g0=&lt;ns2:userId&gt;802866589&lt;/ns2:userId&gt;
+UserID_g1=802866589
+User_var=egceedgddb
+WEB_URL=localhost
+__jmeter.USER_TOKEN__=DebugTestViewer 1-1
+
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">JMeterVariables
+</samplerData>
+</sample>
+
+</testResults>
